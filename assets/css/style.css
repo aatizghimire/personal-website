@@ -110,19 +110,22 @@ label #cancel{
 }
 
 .section{
+    background: rgba(0,0,0,0.5);
     margin-left: 300px;
     position: absolute;
-    top: 70%;
+    top: 80%;
+    padding: 7px;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+	border-radius: 10px;
 }
 
 .section p{
-    font-size: 30px;
     color: #ffffff;
+    font-size: 30px;
 }
 
 .section a{
-    color: #FF5733;
-    padding: 14px;
+    padding: 10px;
+    color: #ffffff;
 }
